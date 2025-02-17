@@ -1,4 +1,32 @@
+h1,
 a {
+  color: red;
+}
+
+p a {
   color: black;
-  text-decoration: none;
+}
+
+#intro {
+  color: blue;
+}
+
+.bicicleta {
+  color: green;
+}
+
+.carro {
+  color: yellow;
+}
+
+.azul {
+  color: blue;
+}
+
+.grande {
+  font-size: 20px;
+}
+
+.underline {
+  text-decoration: underline;
 }
