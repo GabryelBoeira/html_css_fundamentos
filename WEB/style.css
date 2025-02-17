@@ -1,32 +1,8 @@
-h1,
+h1 {
+  background-color: rgb(0, 204, 255);
+  color: rgba(10, 120, 52, 0.5);
+}
+
 a {
-  color: red;
-}
-
-p a {
-  color: black;
-}
-
-#intro {
-  color: blue;
-}
-
-.bicicleta {
-  color: green;
-}
-
-.carro {
-  color: yellow;
-}
-
-.azul {
-  color: blue;
-}
-
-.grande {
-  font-size: 20px;
-}
-
-.underline {
-  text-decoration: underline;
+  color: #15ff00;
 }
