@@ -10,11 +10,12 @@ a {
   color: #15ff00;
 }
 
-div {
-  background: gray;
-  width: 140px;
-  height: 80px;
-  padding: 20px;
-  border: 10px solid #111;
-  margin: 30px;
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.div-img {
+  margin: 20px;
+  width: 200px;
 }
