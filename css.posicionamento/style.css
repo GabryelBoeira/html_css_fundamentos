@@ -1,11 +1,30 @@
-span {
-  display: inline-block;
-  background: #ddd;
+h1 {
+  text-align: center;
 }
 
-span {
-  padding: 30px;
-  padding: 20px 40px;
-  padding: 40px 100px 200px 10px;
-  border-width: 30px 20px;
+body {
+  font-family: Arial;
+}
+
+.item {
+  background: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 4px;
+  display: grid;
+}
+
+.comprar {
+  background: #a8f;
+  color: #103;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
 }
