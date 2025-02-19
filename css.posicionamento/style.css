@@ -1,17 +1,29 @@
 .grid {
   display: grid;
   gap: 20px;
-  grid-template-columns: 1fr, 1fr;
+  grid-template-columns: 2fr, 1fr;
+  grid-template-rows: auto auto;
+  grid-auto-rows: 200px;
+  /* place-items: center; */
 }
 
 .foto {
   grid-column: 1 / -1;
+  text-align: right;
 }
 
-.descricao {
-  grid-column: 1 / -1;
+.preco {
+  place-self: start end;
 }
 
+.titulo {
+  grid-column: 2;
+}
+
+.comprar {
+  align-self: start;
+  text-align: center;
+}
 /* Estilos gerais*/
 
 body {
