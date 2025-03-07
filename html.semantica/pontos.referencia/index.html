@@ -8,11 +8,14 @@
 </head>
 
 <body>
-  <nav aria-label="texto-lido-pelo-leitor-de-tela">
-    <a href="/">Sobre</a>
-    <a href="/">Contatos</a>
-    <a href="/">Voltar</a>
-  </nav>
+  <header>
+    <nav aria-label="texto-lido-pelo-leitor-de-tela">
+      <a href="/">Sobre</a>
+      <a href="/">Contatos</a>
+      <a href="/">Voltar</a>
+    </nav>
+  </header>
+
   <main>
     <h1>Nimbus Stark</h1>
     <p>
@@ -20,16 +23,29 @@
       equipada com os melhores acessórios, o que garante maior velocidade.
     </p>
   </main>
+
   <!-- Utilizar a tag article ando o conteudo nao depende do resto da pagina como a apresentacao da empresa -->
   <article aria-labelledby="sobre-bikecraft">
     <h2 id="sobre-bikecraft">Sobre a BikeCraft.</h2>
     <p>A empresa foi fundada em 2014.</p>
   </article>
+
   <!-- Para a tag section ele para ser lida deve conter um aria-label para poder ser descada, utilizando em compomentes que possuem depencias no site que sem elas nao e possivel realizar o carregamento completo ou sem erros-->
   <section aria-label="Sobre a SurfBot">
     <h2>Sobre a SurfBot.</h2>
     <p>A empresa foi fundada em 2012.</p>
   </section>
+
+  <!-- tag para conteudo extra no site, informacoes nao relaciondas -->
+  <aside>
+    <h3>Posts Relacionados</h3>
+    <a href="/">Como aprender CSS</a>
+    <a href="/">Como aprender HTML</a>
+  </aside>
+
+  <footer>
+    <p>Alguns direitos reservados</p>
+  </footer>
 </body>
 
 </html>
