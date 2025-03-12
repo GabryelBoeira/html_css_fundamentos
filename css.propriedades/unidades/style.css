@@ -1,0 +1,37 @@
+body {
+  font-family: Arial;
+  margin: 40px;
+}
+
+.px {
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.rem {
+  font-size: 1rem;
+  padding: 1rem 2rem;
+}
+
+html {
+  font-size: 150%;
+}
+
+p {
+  background: lightblue;
+}
+
+a {
+  text-decoration: none;
+  background: darkblue;
+  color: white;
+  display: inline-block;
+}
+
+.em {
+  font-size: 2em;
+}
+
+h2 {
+  text-decoration: none;
+}
