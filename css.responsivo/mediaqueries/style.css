@@ -13,7 +13,10 @@ div h1 {
   grid-column: 1 / -1;
 }
 
-/* abaixo de 600px */
+/* 
+  Parte responsiva deve ser escrito sempre por ultimo abaixo 
+  menor que 600px 
+*/
 @media (max-width: 600px) {
   div {
     grid-template-columns: 1fr;
