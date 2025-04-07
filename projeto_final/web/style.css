@@ -79,6 +79,11 @@ p {
   justify-items: end;
 }
 
+.introducao-cover img {
+  object-fit: cover;
+  width: 100%;
+}
+
 .introducao h1 {
   font-size: 2rem;
 }
@@ -145,4 +150,86 @@ p {
   width: 100%;
   text-align: center;
   box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  .conteudo-vantagens {
+    grid-template-columns: 1fr;
+  }
+  .subtitulo {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+  }
+  .header {
+    gap: 1.25rem;
+  }
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
+  .introducao {
+    text-align: left;
+    justify-items: start;
+  }
+  .introducao::before {
+    display: none;
+  }
+  .subtitulo {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    gap: 0.625rem; /* Reduz o espaçamento geral */
+    margin-top: 0.625rem; /* Ajusta o espaçamento superior */
+  }
+
+  .header {
+    gap: 1rem; /* Reduz o espaçamento entre os itens do cabeçalho */
+  }
+
+  .menu a {
+    padding: 0.625rem 1.25rem; /* Reduz o padding dos links do menu */
+    font-size: 0.875rem; /* Ajusta o tamanho da fonte */
+  }
+
+  .conteudo {
+    grid-template-columns: 1fr; /* Exibe o conteúdo em uma única coluna */
+  }
+
+  .introducao {
+    text-align: left; /* Alinha o texto à esquerda */
+    justify-items: start; /* Ajusta o alinhamento dos itens */
+    gap: 0.625rem; /* Reduz o espaçamento interno */
+  }
+
+  .introducao h1 {
+    font-size: 1.5rem; /* Reduz o tamanho do título */
+  }
+
+  .subtitulo {
+    font-size: 2.5rem; /* Reduz o tamanho da fonte do subtítulo */
+    text-align: center; /* Centraliza o subtítulo */
+    padding: 1.25rem; /* Ajusta o padding */
+  }
+
+  .vantagens {
+    padding: 1.25rem; /* Reduz o padding da seção */
+  }
+
+  .vantagens-item {
+    gap: 0.3125rem 0.625rem; /* Ajusta o espaçamento interno */
+    padding: 0.625rem; /* Reduz o padding dos itens */
+  }
+
+  .botao {
+    padding: 0.625rem 1.25rem; /* Reduz o padding do botão */
+    font-size: 0.875rem; /* Ajusta o tamanho da fonte */
+  }
 }
